@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  server:
+    build: .
+    restart: always
+    container_name: image_scan_backend
+    volumes:
+      - ./:/image_scan
+    ports:
+      - '21120:21120'

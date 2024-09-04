@@ -10,7 +10,6 @@ db.sqlite3-journal
 media
 media.zip
 newsettings.py
-requirements.txt
 bdbackup.tar
 virtual_local
 static/
